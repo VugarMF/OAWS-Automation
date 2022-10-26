@@ -38,7 +38,11 @@ public class Driver {
         return driver;
 
        }
+<<<<<<< HEAD
        public static void closeDriver(){
+=======
+      public static void closeDriver(){
+>>>>>>> a47670c (Cucumber BDD framework with TestNG1)
         if (driver!=null){
             driver.quit();
             driver=null;
