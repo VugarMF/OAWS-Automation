@@ -72,8 +72,6 @@ public class DTE_CreateEducationCenter extends Utilities {
         highlight(educationCenter.educationNameSearch);
         sendKeysOnWebElement(educationCenter.educationNameSearch, "George Mason University");
 
-
-
     }
 
     @When("^Click on 'Search center' button$")

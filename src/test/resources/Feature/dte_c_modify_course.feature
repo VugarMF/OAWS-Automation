@@ -1,4 +1,4 @@
-@Dte_modify_course  @regression @smoke @DTE
+@Dte_modify_course   @regression @smoke @DTE
 Feature: DTE modify the course
 
   As a User I should be able to Modify  OTI Education Center Courses in DTE app and modified data should be saved successfully.

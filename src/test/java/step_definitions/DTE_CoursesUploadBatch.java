@@ -113,8 +113,7 @@ public class DTE_CoursesUploadBatch extends Utilities {
     @Then("^Verify  course successfully displayed on the Page$")
     public void verify_course_successfully_displayed_on_the_Page() throws Throwable {
     String expectedResult="#521 OSHA Guide to Industrial Hygiene";
-    Assert.assertEquals(coursesUploadBatch.courseTitleVerify.getText(),expectedResult);
-    //String expectedResult="#2225 Respiratory Protection";
+    Assert.assertEquals(coursesUploadBatch.courseTitleVerify.getText(),expectedResult);    //String expectedResult="#2225 Respiratory Protection";
     //Assert.assertEquals(coursesUploadBatch.courseTitleVerify.getText(),expectedResult);
 //    Driver.closeDriver();
     }

@@ -1,4 +1,4 @@
-@Dte_create_course_title
+@Dte_create_course_title @regression
 Feature: DTE create course
 
   As a User I should be able to Create a course title in DTE app and

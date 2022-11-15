@@ -1,4 +1,4 @@
-@Dte_create_education_center @regression @DTE
+@Dte_create_education_center  @regression @DTE
 Feature: DTE create education center
 
   As a User I should be able to Create a Education Center on Courses module in DTE app and

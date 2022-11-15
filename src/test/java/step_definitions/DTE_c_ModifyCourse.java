@@ -52,8 +52,7 @@ public class DTE_c_ModifyCourse extends Utilities{
     @When("^Click on 'Search ' button$")
     public void click_on_Search_button() throws Throwable {
      Utilities.sleep(2);
-     Utilities.click(dte_modifyCourse.searchBtn);
-    }
+     Utilities.click(dte_modifyCourse.searchBtn);    }
 
     @Then("^Verify Grid table displayed  a search results$")
     public void verify_Grid_table_displayed_a_search_results() throws Throwable {

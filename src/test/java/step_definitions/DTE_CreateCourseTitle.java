@@ -29,7 +29,6 @@ public class DTE_CreateCourseTitle {
     @When("^Click on' Create' On Search OTI Course Title screen$")
     public void click_on_Create_On_Search_OTI_Course_Title_screen() throws Throwable {
         Utilities.click(dte_createCourseTitle.createBtn);
-
     }
 
     @When("^Enter  Data for all Mandatory fields$")

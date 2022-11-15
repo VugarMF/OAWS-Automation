@@ -24,7 +24,6 @@ public class DTE_SearchCourseTitlePages {
         @FindBy(xpath = "(//span[.='Buffalo'])[2]")
         public WebElement courseSearchResult;
 
-
         @FindBy(xpath = "//h1[.='Search OTI Course Titles']")
         public WebElement otiCourseTitle;
     }

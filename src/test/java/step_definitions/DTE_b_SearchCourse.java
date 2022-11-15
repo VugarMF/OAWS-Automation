@@ -78,7 +78,6 @@ public class DTE_b_SearchCourse extends Utilities{
 
     }
 
-
     }
 
 

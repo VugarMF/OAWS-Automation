@@ -4,7 +4,6 @@ Feature:DTE create course
   As a user I should be able to create a course in DTE app and when I search recently created course it should be
   displayed on the page successfully.
 
-
   Scenario:  DTE create course
     Given User login DTE application
     Then Verify user is on home page

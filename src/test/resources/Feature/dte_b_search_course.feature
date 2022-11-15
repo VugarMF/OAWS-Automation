@@ -1,4 +1,4 @@
-@Dte_search_course @regression  @DTE
+@Dte_search_course   @regression  @DTE
 Feature: DTE search course
 
   As a User I should be able to Search  OTI Education Center Courses in DTE app

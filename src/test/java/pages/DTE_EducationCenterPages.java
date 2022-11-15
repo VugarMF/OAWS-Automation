@@ -96,7 +96,6 @@ public class DTE_EducationCenterPages {
 
     @FindBy(id= "r1:1:r1:2:qryId1::search")
     public WebElement uploadSearchBtn;
-
     @FindBy(id="r1:1:r1:2:pc1:resId1:0:l1::text")
     public WebElement courseTitleVerify;
 

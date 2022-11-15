@@ -22,7 +22,6 @@ public class DTE_CoursesTitlePages {
    @FindBy(id="r1:1:r1:2:it1::content")
     public WebElement CourseTitleId;
 
-
     //@FindBy(xpath = "//a[.='Course Titles']")
     //public WebElement courseTitleHprLink;
 

@@ -22,7 +22,6 @@ public class DTE_CoursesPages {
     @FindBy(name="r1:1:r1:1:soc1")
     public WebElement OtiEducationDropdown;
 
-
     @FindBy(id="r1:1:r1:1:soc2::content")
     public WebElement courseTitleDropdown;
 

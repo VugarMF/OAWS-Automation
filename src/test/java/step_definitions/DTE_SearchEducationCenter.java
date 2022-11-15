@@ -18,8 +18,6 @@ public class DTE_SearchEducationCenter extends Utilities {
         sleep(2);
         highlight(searchEducationCenter.searchBtn);
         Utilities.click(searchEducationCenter.searchBtn);
-
-
     }
 
     @Then("^Verify  Education Center successfully displayed on the Page$")

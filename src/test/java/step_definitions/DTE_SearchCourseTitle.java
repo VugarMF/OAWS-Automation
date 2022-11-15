@@ -48,7 +48,6 @@ Utilities.click(dte_searchCourseTitle.coursesHprLink);
         String expectedResult="Search OTI Course Titles";
         Assert.assertEquals(dte_searchCourseTitle.otiCourseTitle.getText(),expectedResult);
         //Driver.closeDriver();
-
     }
 
     @Then("^Input the 'Course title' as the search parameter$")

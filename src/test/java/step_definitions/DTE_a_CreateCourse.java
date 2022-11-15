@@ -130,7 +130,6 @@ public class DTE_a_CreateCourse extends Utilities {
     public void click_on_Search_button() throws Throwable {
         Utilities.click(dte_createCourse.searchBtn);
 
-
     }
     @Then("^Verify recently created course successfully displayed on the page$")
     public void verify_recently_created_course_successfully_displayed_on_the_page() throws Throwable {

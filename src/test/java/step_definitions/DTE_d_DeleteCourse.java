@@ -97,4 +97,5 @@ public class DTE_d_DeleteCourse extends Utilities {
        verifyElementIsNotDisplayed((dte_deleteCourse.courseTitleHprLink));
        Driver.closeDriver();
     }
+
 }

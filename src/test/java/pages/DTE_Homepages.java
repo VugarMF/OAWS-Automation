@@ -8,7 +8,6 @@ import utilities.Driver;
 public class DTE_Homepages {
 
      public DTE_Homepages(){
-
         PageFactory.initElements(Driver.getDriver(),this);
     }
     @FindBy(id="r1:0:l2::text")

@@ -12,10 +12,8 @@ public class LoginOshaPages {
     }
         @FindBy(name="userID")
         public WebElement userNameInput;
-
         @FindBy(name="password")
         public WebElement passwordInput;
-
         @FindBy(id="rob")
         public WebElement acceptRules;
 

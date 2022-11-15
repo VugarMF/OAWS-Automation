@@ -54,6 +54,7 @@ public class Utilities {
 //    }
 
         public static void loginDTE() {
+
             LoginOshaPages loginOshaPages = new LoginOshaPages();
             //go to website
             Driver.getDriver().get(ConfigurationReader.getProperty("osha.DTE_url"));

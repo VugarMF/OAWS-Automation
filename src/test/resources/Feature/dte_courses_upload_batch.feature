@@ -1,4 +1,4 @@
-@Dte_courses_batch_upload @regression
+@Dte_courses_batch_upload  @regression
 Feature: DTE upload course batch
 
   As a User I Should be able to Upload Course batch Template On Courses Module in DTE app
