@@ -62,15 +62,15 @@
                 </exclusion>
             </exclusions>
         </dependency>
-<<<<<<< HEAD
 
-=======
+
+
         <dependency>
             <groupId>org.apache.poi</groupId>
             <artifactId>poi-ooxml</artifactId>
             <version>5.2.2</version>
         </dependency>
->>>>>>> a47670c (Cucumber BDD framework with TestNG1)
+
         <dependency>
             <groupId>net.masterthought</groupId>
             <artifactId>cucumber-reporting</artifactId>
