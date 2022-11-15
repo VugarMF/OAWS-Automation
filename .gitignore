@@ -1,6 +1,4 @@
 /target/
 /.idea/
-<<<<<<< HEAD
-=======
 *.iml
->>>>>>> a47670c (Cucumber BDD framework with TestNG1)
+
