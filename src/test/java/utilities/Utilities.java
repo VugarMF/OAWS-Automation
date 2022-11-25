@@ -13,6 +13,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
 import pages.LoginOshaPages;
+import pages.LoginOspadsPages;
 
 import javax.swing.*;
 import java.util.ArrayList;
@@ -67,8 +68,20 @@ public class Utilities {
             loginOshaPages.loginBtn.click();
 
         }
+    public static void loginOSPADS() {
 
+        LoginOspadsPages loginOspadsPages = new LoginOspadsPages();
+        //go to website
+        Driver.getDriver().get(ConfigurationReader.getProperty("osha.OSPADS_url"));
+        //pass username
+        loginOspadsPages.ospadsUsernameInput.sendKeys(ConfigurationReader.getProperty("login.OSPADS_username"));
+        //pass password
+        loginOspadsPages.ospadsPasswordInput.sendKeys(ConfigurationReader.getProperty("login.OSPADS_psw"));
 
+        loginOspadsPages.acceptRulesBtn.click();
+        loginOspadsPages.loginBtn.click();
+
+    }
 
     /**
      * This method will accept a dropdown as a WebElement
@@ -115,13 +128,10 @@ public class Utilities {
 
 
 
-
     public static void selectByValue(WebElement element,String value ){
         Select select=new Select(element);
         select.selectByValue(value);
     }
-
-
 
 
     /**

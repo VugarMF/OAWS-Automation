@@ -8,7 +8,7 @@ import pages.DTE_EducationCenterPages;
 import utilities.Driver;
 import utilities.Utilities;
 
-public class DTE_CreateEducationCenter extends Utilities {
+public class DTE_e_CreateEducationCenter extends Utilities {
 
     DTE_EducationCenterPages educationCenter= new DTE_EducationCenterPages();
 

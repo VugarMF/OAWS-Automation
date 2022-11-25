@@ -125,6 +125,14 @@ public class DTE_CoursesPages {
    @FindBy(xpath="(//span[@class='xfx'])[4]")
     public WebElement popUpYesBtn;
 
+   @FindBy(xpath="(//a[@class='x18v'])[1]")
+    public WebElement menuBtn;
+
+@FindBy(xpath="(//td[@class='x19c'])[17]")
+    public WebElement exportBtn;
+
+
+
 
 
 

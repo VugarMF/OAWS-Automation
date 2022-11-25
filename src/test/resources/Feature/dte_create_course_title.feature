@@ -1,4 +1,4 @@
-@Dte_create_course_title @regression
+@Dte_create_course_title @DTE @regression
 Feature: DTE create course
 
   As a User I should be able to Create a course title in DTE app and
@@ -11,7 +11,7 @@ Feature: DTE create course
   Then Verify User is on Course Page
   When Click on 'Course Titles' tab
   Then Verify User  is on 'Search Course Title ' Screen
-  When Click on ' Create' On Search OTI Course Title screen
+  When Click on 'Create' On Search OTI  Course Title screen
   And Enter  Data for all Mandatory fields
   And Click  on Save Button
     And  Click  'ok' in information pop up

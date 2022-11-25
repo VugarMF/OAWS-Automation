@@ -1,4 +1,4 @@
-@Dte_search_course_title @regression
+@Dte_search_course_title @DTE @regression
 Feature: DTE search course title
 
   As a User I should be able to Search OTI Course Title in DTE app
@@ -6,7 +6,7 @@ Feature: DTE search course title
   Scenario: Search course title
   Given User  Login DTE Application
   Then Verify user  is on home Page
-  And Click Courses  Hyper  link
+  And Click Courses  Tab
   Then Verify User is on  Course Page
   When Click on "Course Titles' tab
   Then Verify User is on 'Search Course Title ' Screen

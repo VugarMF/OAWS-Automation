@@ -11,8 +11,7 @@ import org.testng.annotations.Test;
 @CucumberOptions(
         features = "src/test/resources/Feature",
         glue = {"step_definitions"},
-        tags = {"@Dte_delete_course"},
-
+        tags = {"@OSPADS_add_new_partnership"},
         format = {
                 "pretty",
                 "html:target/cucumber-reports/cucumber-pretty",

@@ -16,7 +16,7 @@ public class DTE_a_CreateCourse extends Utilities {
 
     @Given("^User login DTE application$")
     public void user_login_DTE_application() throws Throwable {
-        Utilities.sleep(3);
+        Utilities.sleep(2);
         Driver.getDriver().get(ConfigurationReader.getProperty("osha.DTE_url"));
         Utilities.loginDTE();
 
@@ -76,34 +76,6 @@ public class DTE_a_CreateCourse extends Utilities {
             selectByValue(dte_createCourse.industryDropdown,"2");
             selectByValue(dte_createCourse.languageDropdown,"9");
 
-//        Select selectOtiEducation=new Select(dte_createCourse.OtiEducationDropdown);
-//        selectOtiEducation.selectByValue("22");
-//        Thread.sleep(2000);
-//        Select selectCourseTitle=new Select(dte_createCourse.courseTitleDropdown);
-//        selectCourseTitle.selectByValue("6");
-//        dte_createCourse.location.sendKeys("Utah Community College");
-//        dte_createCourse.address.sendKeys("1245 Main st");
-//        dte_createCourse.city.sendKeys("Alexandria");
-//        Select selectState=new Select(dte_createCourse.stateDropdown);
-//        selectState.selectByValue("57");
-//        Select selectStartMonth=new Select(dte_createCourse.courseStartMonth);
-//        selectStartMonth.selectByValue("9");
-//        Thread.sleep(2000);
-//        dte_createCourse.endCalendarDate.click();
-//        Select selectEndMonth=new Select(dte_createCourse.courseEndMonth);
-//        selectEndMonth.selectByValue("10");
-//        dte_createCourse.courseEndYear.click();
-//        Thread.sleep(2000);
-//        dte_createCourse.courseEndDay.click();
-//        Thread.sleep(2000);
-//        dte_createCourse.numberOfDays.sendKeys("7");
-//        dte_createCourse.contactHours.sendKeys("28");
-//        dte_createCourse.courseCost.sendKeys("1000");
-//        Select selectGeneralIndustry=new Select(dte_createCourse.industryDropdown);
-//        selectGeneralIndustry.selectByValue("2");
-//        Select selectLanguage=new Select(dte_createCourse.languageDropdown);
-//        selectLanguage.selectByValue("9");
-
     }
 
     @And("^Click on 'Save' button$")
@@ -121,8 +93,6 @@ public class DTE_a_CreateCourse extends Utilities {
 
     @And("^Input the recently created 'Course' as the search parameter$")
     public void input_the_recently_created_Course_as_the_search_parameter() throws Throwable {
-//        Select selectEducationCenter=new Select(dte_createCourse.educationCenterDropdown);
-//        selectEducationCenter.selectByValue("22");
         selectByValue(dte_createCourse.educationCenterDropdown,"3" );
     }
 
@@ -135,7 +105,6 @@ public class DTE_a_CreateCourse extends Utilities {
     public void verify_recently_created_course_successfully_displayed_on_the_page() throws Throwable {
         String expectedResult="Buffalo";
         Assert.assertEquals(dte_createCourse.createdCourseCenter.getText(),expectedResult);
-        //Utilities.verifyElementDisplayed(dte_createCourse.createdCourseCenter);
         Driver.closeDriver();
 
     }
